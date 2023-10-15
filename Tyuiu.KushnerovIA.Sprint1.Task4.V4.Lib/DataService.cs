@@ -11,7 +11,7 @@ namespace Tyuiu.KushnerovIA.Sprint1.Task4.V4.Lib
     {
         public double Calculate(double x, double y)
         {
-            return Convert.ToDouble(Convert.ToInt32(((1 + x * y) / Math.Abs(x + 2)) * 1000)) / 1000;
+            return Math.Round((1 + x * y) / Math.Abs(x + 2), 3);
         }
     }
 }
