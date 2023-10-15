@@ -11,7 +11,7 @@ namespace Tyuiu.KushnerovIA.Sprint1.Task3.V16.Lib
     {
         public double CoeffOfQuadraticEquation(double x1, double x2)
         {
-            return Convert.ToDouble(Convert.ToInt32((x1 - x2) * 1000)) / 1000;
+            return Math.Round((x1 - x2), 3);
         }
     }
 }
